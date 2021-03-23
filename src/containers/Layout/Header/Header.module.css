@@ -1,0 +1,21 @@
+.Header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.LeftSide {
+    float: left;
+    width: 60%;
+    text-align: center;
+    padding-top: 5%;
+}
+.RightSide {
+    float: right;
+    width: 40%;
+}
+.TopDot {
+    float: left;
+    margin-top: 5%;
+    padding-right: 100%;
+}

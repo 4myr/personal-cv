@@ -1,5 +1,9 @@
+@import './fonts/IRANSans/IRANSans.css';
+
 .App {
   text-align: center;
+  font-family: IRANSans;
+  direction: rtl;
 }
 
 .App-logo {

@@ -1,0 +1,8 @@
+.Links {
+    list-style: none;
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    width: 60%;
+    text-align: center;
+}

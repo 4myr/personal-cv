@@ -1,0 +1,17 @@
+.Link {
+    display: inline-block;
+    padding-left: 15px;
+    font-size: medium;
+    color: #918e8e;
+}
+.Link:after {
+    content: "/";
+    padding-right: 15px;
+}
+.Link:last-child:after {
+    content: "";
+}
+.Link a {
+    color: #918e8e;
+    text-decoration: none;
+}

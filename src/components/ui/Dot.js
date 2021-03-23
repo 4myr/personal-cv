@@ -1,9 +1,9 @@
 import React from 'react';
 
-const dot = () => (
-    <svg width="186" height="130" xmlns="http://www.w3.org/2000/svg">
-        <ellipse stroke-width="0" stroke="#000" ry="12" rx="12" id="svg_3" cy="106" cx="135" opacity="undefined" fill="#e5e5e5"/>
+const dot = (props = null) => (
+    <svg className={props.style} width="186" height="130" xmlns="http://www.w3.org/2000/svg">
         <ellipse stroke-width="0" stroke="#000" ry="12" rx="12" id="svg_4" cy="106" cx="105" opacity="undefined" fill="#e5e5e5"/>
+        <ellipse stroke-width="0" stroke="#000" ry="12" rx="12" id="svg_3" cy="106" cx="135" opacity="undefined" fill="#e5e5e5"/>
         <ellipse stroke-width="0" stroke="#000" ry="12" rx="12" id="svg_5" cy="106" cx="165" opacity="undefined" fill="#e5e5e5"/>
         <ellipse stroke-width="0" stroke="#000" ry="12" rx="12" id="svg_6" cy="106" cx="45" opacity="undefined" fill="#e5e5e5"/>
         <ellipse stroke-width="0" stroke="#000" ry="12" rx="12" id="svg_7" cy="106" cx="15" opacity="undefined" fill="#e5e5e5"/>

@@ -1,0 +1,7 @@
+.PosterImage {
+    background: url('./Poster.png') no-repeat;
+    width: 597px;
+    height: 842px;
+    float: right;
+    top: 0
+}
